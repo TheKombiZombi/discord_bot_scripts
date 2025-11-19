@@ -4,10 +4,8 @@ import json
 import datetime
 import os
 
-WEBHOOK_URL = "https://discord.com/api/webhooks/1440463711645990912/g__qrs1k7gpeHO9xMY0TahIYjVoA0NNTl0mGcn2us80NeTb9hly_lDI41trpuc4oumH3"
-
-ORT = "knapp"
-BASE_URL = "https://www.das-schmeckt-mir.ruhr/images/pdf/speise_{ort}/{kw}_KW_Speiseplan{year}_Knapp.jpg"
+WEBHOOK_URL = "WEBHOOK URL HIER EINFÜGEN"
+BASE_URL = "URL ZUM ESSENSPLAN"
 
 # mögliche Dateiendungen durchprobieren
 EXTENSIONS = [".jpg", ".jpeg", ".png"]
@@ -136,3 +134,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
