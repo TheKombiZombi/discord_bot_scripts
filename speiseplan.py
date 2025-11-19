@@ -1,3 +1,9 @@
+'''------------------------------------------------------------------
+Ein simples Script, um den Essensplan eines bestimmten Unternehmens per URL auszulesen, das Bild zu speichern,
+und dann auf Discord per Webhook hochzuladen. Benötigt Systemd-Timer für automatische Ausführung.
+von kneumann
+------------------------------------------------------------------'''
+
 import requests
 import hashlib
 import json
@@ -135,5 +141,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
