@@ -5,6 +5,7 @@ import datetime
 import os
 
 WEBHOOK_URL = "WEBHOOK URL HIER EINFÜGEN"
+ORT = "knapp"
 BASE_URL = "URL ZUM ESSENSPLAN"
 
 # mögliche Dateiendungen durchprobieren
@@ -134,4 +135,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
